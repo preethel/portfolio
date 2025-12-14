@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, Github, Linkedin, Mail, ArrowUp } from "lucide-react";
+import { Heart, Github, Linkedin, Mail, ArrowUp, LucideIcon } from "lucide-react";
 import { Personal } from "@/lib/types";
 
 interface FooterProps {
@@ -15,7 +15,9 @@ export default function Footer({ personal }: FooterProps) {
     { icon: Github, href: personal.social.github, label: "GitHub" },
     { icon: Linkedin, href: personal.social.linkedin, label: "LinkedIn" },
     { icon: Mail, href: `mailto:${personal.email}`, label: "Email" },
-  ].filter(link => link.href);
+  ].filter((link): link is { icon: LucideIcon; href: string; label: string } => 
+    link.href !== null && link.href !== ''
+  );
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });

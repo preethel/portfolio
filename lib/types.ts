@@ -1,10 +1,10 @@
 // Type definitions for portfolio data
 
 export interface Social {
-  github: string;
-  linkedin: string;
-  twitter: string;
-  website: string;
+  github: string | null;
+  linkedin: string | null;
+  twitter: string | null;
+  website: string | null;
 }
 
 export interface Personal {

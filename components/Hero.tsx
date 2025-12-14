@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, MapPin, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, ChevronDown, LucideIcon } from "lucide-react";
 import { Personal } from "@/lib/types";
 
 interface HeroProps {
@@ -13,7 +13,9 @@ export default function Hero({ personal }: HeroProps) {
     { icon: Github, href: personal.social.github, label: "GitHub" },
     { icon: Linkedin, href: personal.social.linkedin, label: "LinkedIn" },
     { icon: Mail, href: `mailto:${personal.email}`, label: "Email" },
-  ].filter(link => link.href);
+  ].filter((link): link is { icon: LucideIcon; href: string; label: string } => 
+    link.href !== null && link.href !== ''
+  );
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
