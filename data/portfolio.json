@@ -158,28 +158,6 @@
       "featured": false
     },
     {
-      "id": 5,
-      "name": "EnlightenGAN",
-      "description": "Image enhancement using Deep Learning and GANs. Specialized in low-light image enhancement using advanced computer vision techniques.",
-      "techStack": [
-        "Python",
-        "TensorFlow",
-        "Computer Vision",
-        "GAN"
-      ],
-      "features": [
-        "Low-light image enhancement",
-        "GAN-based approach",
-        "Deep learning models",
-        "Real-time processing",
-        "Advanced computer vision"
-      ],
-      "githubUrl": "https://github.com/preethel/EnlightenGAN",
-      "liveUrl": "",
-      "image": "/projects/enlightengan.png",
-      "featured": true
-    },
-    {
       "id": 6,
       "name": "LocalAgent",
       "description": "Windows agent application with PowerShell automation for system monitoring and automated task management.",
