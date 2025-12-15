@@ -1,0 +1,230 @@
+{
+  "personal": {
+    "name": "Md. Nur-A-Redwan-Ul-Azam",
+    "username": "preethel",
+    "title": "Full-Stack Software Engineer",
+    "bio": "Passionate full-stack developer with expertise in building scalable applications using modern technologies. I specialize in creating robust microservices architectures and AI-powered solutions that solve real-world problems.",
+    "location": "Dhaka, Bangladesh",
+    "email": "azam13bh@outlook.com",
+    "phone": "+880-XXX-XXXXXX",
+    "avatar": "/avatar.png",
+    "social": {
+      "github": "https://github.com/preethel",
+      "linkedin": "https://bd.linkedin.com/in/preethel",
+      "twitter": null,
+      "website": null
+    }
+  },
+  "skills": {
+    "Frontend": [
+      "TypeScript",
+      "JavaScript",
+      "Angular",
+      "React",
+      "Next.js",
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "Tailwind CSS"
+    ],
+    "Backend": [
+      "C#",
+      ".NET Core",
+      "ASP.NET Core",
+      "Node.js",
+      "RESTful APIs",
+      "Microservices"
+    ],
+    "Database": [
+      "SQL Server",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "DevOps": [
+      "Docker",
+      "GitHub Actions",
+      "CI/CD",
+      "Nginx"
+    ],
+    "AI/ML": [
+      "Python",
+      "TensorFlow",
+      "GAN",
+      "Computer Vision"
+    ],
+    "Tools": [
+      "Git",
+      "PowerShell",
+      "Shell Scripting"
+    ],
+    "Architecture": [
+      "Microservices",
+      "SAAS",
+      "Event-Driven Architecture"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "HIT.AI.SAAS",
+      "description": "AI-powered SAAS platform with microservices architecture for enterprise solutions. Features multi-tenant architecture with advanced 3D visualization capabilities.",
+      "techStack": [
+        "Angular",
+        "C#",
+        ".NET Core",
+        "Docker",
+        "Microservices",
+        "Potree",
+        "Three.js"
+      ],
+      "features": [
+        "Multi-tenant architecture",
+        "3D visualization using Potree and Three.js",
+        "Real-time data processing",
+        "Scalable microservices",
+        "Advanced AI capabilities"
+      ],
+      "githubUrl": "https://github.com/preethel/HIT.AI.SAAS",
+      "liveUrl": "",
+      "image": "/projects/hit-ai-saas.png",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "TradingApp",
+      "description": "Full-stack trading application with real-time features and comprehensive CI/CD pipeline. Built for high-performance trading operations.",
+      "techStack": [
+        "TypeScript",
+        "C#",
+        ".NET Core",
+        "Docker",
+        "React",
+        "PostgreSQL"
+      ],
+      "features": [
+        "Real-time trading capabilities",
+        "Automated CI/CD pipeline",
+        "Microservices architecture",
+        "PostgreSQL database integration",
+        "High-performance APIs"
+      ],
+      "githubUrl": "https://github.com/preethel/TradingApp",
+      "liveUrl": "",
+      "image": "/projects/trading-app.png",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Soplyn",
+      "description": "Enterprise-grade application with scalable architecture and modern UI/UX. Designed for business process automation and management.",
+      "techStack": [
+        "C#",
+        "TypeScript",
+        "Docker",
+        ".NET Core",
+        "Angular"
+      ],
+      "features": [
+        "Scalable architecture",
+        "Modern UI/UX design",
+        "Containerized deployment",
+        "Enterprise security features",
+        "Business process automation"
+      ],
+      "githubUrl": "https://github.com/preethel/Soplyn",
+      "liveUrl": "",
+      "image": "/projects/soplyn.png",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Aurora",
+      "description": "Modern TypeScript-based application with automated deployment scripts and cloud-native architecture.",
+      "techStack": [
+        "TypeScript",
+        "Shell",
+        "Docker",
+        "Node.js"
+      ],
+      "features": [
+        "Modern TypeScript architecture",
+        "Automated deployment scripts",
+        "Cloud-native design",
+        "Containerized infrastructure"
+      ],
+      "githubUrl": "https://github.com/preethel/aurora",
+      "liveUrl": "",
+      "image": "/projects/aurora.png",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "LocalAgent",
+      "description": "Windows agent application with PowerShell automation for system monitoring and automated task management.",
+      "techStack": [
+        "PowerShell",
+        "C#",
+        "Inno Setup",
+        "Windows Services"
+      ],
+      "features": [
+        "System monitoring",
+        "Automated task execution",
+        "Windows service integration",
+        "PowerShell automation",
+        "System diagnostics"
+      ],
+      "githubUrl": "https://github.com/preethel/LocalAgent",
+      "liveUrl": "",
+      "image": "/projects/local-agent.png",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Tech Company",
+      "position": "Full-Stack Software Engineer",
+      "location": "Dhaka, Bangladesh",
+      "startDate": "2020-01",
+      "endDate": "Present",
+      "current": true,
+      "description": "Leading development of enterprise-level applications using .NET Core, Angular, and microservices architecture. Implementing AI/ML solutions and managing cloud infrastructure.",
+      "responsibilities": [
+        "Architecting and developing microservices-based applications",
+        "Leading frontend development with Angular and React",
+        "Implementing CI/CD pipelines with Docker and GitHub Actions",
+        "Developing AI/ML solutions using Python and TensorFlow",
+        "Mentoring junior developers and conducting code reviews"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "University Name",
+      "degree": "Bachelor of Science in Computer Science and Engineering",
+      "field": "Computer Science and Engineering",
+      "startDate": "2016",
+      "endDate": "2020",
+      "location": "Bangladesh",
+      "description": "Focused on software engineering, algorithms, and computer science fundamentals."
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Software Engineering Certification",
+      "issuer": "Professional Institution",
+      "date": "2020",
+      "description": "Completed comprehensive software engineering course covering architecture, design patterns, and best practices."
+    },
+    {
+      "id": 2,
+      "title": "Algorithm Specialization",
+      "issuer": "Professional Institution",
+      "date": "2020",
+      "description": "Specialized in algorithms and data structures with focus on optimization and problem-solving."
+    }
+  ]
+}
